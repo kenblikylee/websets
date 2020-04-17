@@ -47,7 +47,7 @@ curl -d '@data.txt' <url>
 curl -F 'file=@image.png' <url>
 ```
 
-> 上面命令会给 HTTP 请求加上标头Content-Type: multipart/form-data，然后将文件photo.png作为file字段上传。
+> 上面命令会给 HTTP 请求加上标头Content-Type: multipart/form-data，然后将文件 image.png 作为file字段上传。
 
 ### 选项
 
